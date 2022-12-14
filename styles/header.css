@@ -1,0 +1,65 @@
+.header{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 0;
+
+}
+
+.header_container{
+    padding: 0 17%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_container-right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header_container-right > *:not(:last-child) {
+    margin-right: 25px;
+}
+
+.header_profile{
+    display: flex;
+    align-items: center;
+}
+
+.header_profile > img{
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+}
+
+.header_name{
+    font-family: 'Poppins', serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.header_status {
+    display: flex;
+    align-items: center;
+}
+
+.header_status img{
+    margin-right: 5px;
+    width: 12px;
+    height: 12px;
+}
+
+.header_status span{
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}

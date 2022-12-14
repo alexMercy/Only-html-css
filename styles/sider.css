@@ -1,0 +1,32 @@
+.sider {
+    position: fixed;
+    background-color: #1E242C;
+    height: 561px;
+    width: 54px;
+    left: 0;
+    top: calc((100vh - 561px) / 2);
+    box-shadow: 9px 4px 18px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 0 50px 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sider_nav {
+    margin-top: 55px;
+}
+
+.sider ul > li {
+    margin-bottom: 25px;
+}
+
+.sider ul > li > img {
+    opacity: 0.4;
+}
+
+.sider ul > li > img:hover {
+    opacity: 1;
+}
+
+.sider_profile{
+    margin-top: 55px;
+}

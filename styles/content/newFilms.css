@@ -1,0 +1,262 @@
+.new-films > h2{
+    font-family: 'Bebas', serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-bottom: 46px;
+}
+
+.new-films_grid{
+    display: grid;
+    height: 618px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+    grid-template-areas:
+    "a a b c"
+    "a a d d";
+    margin-bottom: 48px;
+}
+
+.new-films_grid > div{
+    position: relative;
+}
+
+.new-films_2x2 > div{
+    position: absolute;
+}
+
+.new-films_2x2 > .new-films_quality{
+    width: 169px;
+    height: 37px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+    border-radius: 0 10px 10px 0;
+
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    top: 338px;
+    left: 0;
+}
+
+.new-films_2x2 > .new-films_description{
+    width: 453px;
+    height: 96px;
+
+    font-size: 48px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+
+    top: 395px;
+    left: 19px;
+}
+
+.new-films_2x2 > .new-films_low-description{
+    width: 498px;
+    height: 47px;
+
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+
+    top: 501px;
+    left: 19px;
+}
+
+.new-films_2x2 > .new-films_button{
+    bottom: 0;
+    right: 0;
+    width: 188px;
+    height: 60px;
+    background: #FFC30D;
+    border-radius: 10px 0;
+
+    font-size: 36px;
+    line-height: 36px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.new-films_2x2 > .new-films_rating{
+    width: 290px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 20px;
+    line-height: 20px;
+
+    left: 20px;
+    bottom: 6px;
+}
+
+.new-films_2x2 > .new-films_rating > div{
+    display: flex;
+    align-items: center;
+}
+
+.new-films_2x2 > .new-films_rating > div > span{
+
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.new-films_1x1 {
+    /*height: 316px;*/
+}
+
+.new-films_1x1 > div{
+    position: absolute;
+}
+
+.new-films_1x1 > .new-films_button{
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 32px;
+    background: #FFC30D;
+    border-radius: 10px 0;
+
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.new-films_1x1 > .new-films_description{
+    width: 240px;
+    height: 51px;
+
+
+    font-size: 25px;
+    line-height: 25px;
+    color: #FFFFFF;
+
+    top: 224px;
+    left: 10px;
+}
+
+.new-films_1x1 > .new-films_quality{
+    width: 69px;
+    height: 18px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+    border-radius: 0 10px 10px 0;
+
+
+    font-size: 13px;
+    line-height: 13px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    left: 0;
+    top: 185px;
+}
+
+.new-films_1x1 > .new-films_rating{
+    width: 130px;
+    height: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 20px;
+    line-height: 20px;
+
+    left: 10px;
+    bottom: 6px;
+}
+
+
+.new-films_2x1 {
+    height: 100%;
+}
+
+.new-films_2x1 > div{
+    position: absolute;
+}
+
+.new-films_2x1 > .new-films_description{
+    width: 493px;
+    height: 105px;
+
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+
+    bottom: 0;
+    left: 20px;
+}
+
+.new-films_2x1 > .new-films_button{
+    width: 145px;
+    height: 46px;
+    right: 0;
+    bottom: 0;
+    background: #FFC30D;
+    border-radius: 10px 0;
+
+    font-size: 21px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+
+.new-films_a{
+    grid-area: a;
+}
+
+.new-films_b{
+    grid-area: b;
+}
+
+.new-films_c{
+    grid-area: c;
+}
+
+.new-films_d{
+    grid-area: d;
+}
+
+
+.new-films_rating {
+    color: #FFF;
+}
+
+.new_film_critic_rating {
+    color: #FFC30D;
+}

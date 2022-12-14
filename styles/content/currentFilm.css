@@ -1,0 +1,110 @@
+.current-film{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 960px;
+}
+
+.current-film_back {
+    position: absolute;
+    right: 5%;
+    z-index: -1;
+    height: 960px;
+
+}
+
+.current-film_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.current-film_heading{
+    display: flex;
+    align-items: center;
+}
+
+.current-film_heading > img{
+    width: 43px;
+    height: 43px;
+}
+
+.current-film_heading > span{
+    font-size: 48px;
+    line-height: 65px;
+    color: #FFF;
+}
+
+.current-film_title{
+    font-size: 64px;
+    line-height: 65px;
+    color: #FFF;
+}
+
+.current-film_en{
+    display: flex;
+    align-items: center;
+}
+
+.current-film_en > img{
+    height: 24px;
+    width: 24px;
+    margin-right: 7px;
+}
+
+.current-film_en > span{
+    font-size: 36px;
+    line-height: 65px;
+    color: #FFC30D;
+}
+
+.current-film_description{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+    width: 522px;
+}
+
+.current-film_subscribe{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+    box-shadow: 0 15px 30px rgba(20, 102, 204, 0.16);
+    backdrop-filter: blur(15px);
+    border-radius: 13px;
+
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+
+    height: 50px;
+    width: 200px;
+}
+
+.current-film_rating{
+    margin: 18px 0;
+}
+
+.current-film_rating > ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 342px;
+    height: 29px;
+}
+
+.critic_name{
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.critic_rating{
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFC30D;
+}
